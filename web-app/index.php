@@ -18,9 +18,8 @@
   </style>
 </head>
 <body>
-  <h1>Hello world</h1>
+  <h1>Hello World</h1>
   <ul><?php foreach($INFO as $e){echo '<li>', $e, '</li>';}?></ul>
-  <h1>test</h1>
-  <ul><?php THIS-IS-ERROR()?></ul>
+  <?php THIS-IS-ERROR()?>
 </body>
 </html>
